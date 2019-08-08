@@ -1,0 +1,89 @@
+
+								🎗️ Drupal 8 theming from scratch 🎗️
+--------------------------------------------------------------------------------------------    
+Hi we are creating a simple bootstrap based theme you can join with us...
+👉️Initial steps to follow....
+
+#1 Install drupal via composer.
+#2 Create a virtual host for the same [Docs: https://gist.github.com/dasbairagya/76e0cc75fbd70a20a487ff901f78ab96].
+#3 Create a theme using drupal console.
+#4 Extends the theme using bootstrap contributed theme. [not required for now]
+
+#5 Download a simple theme and paste into the newly created theme [Theme link:  https://github.com/drupal-up/materialize-webshop].
+
+#6 Create libraries.yml file and add your libraries and update the info.yml file as well.
+
+#7 Activate the theme debug in service.yml file.
+
+#8 Disable template caching to have less cache to clear.
+
+#9 Install the Devel module via composer/drush.
+
+#10 Activate the kint debuging tool.
+
+#11 Template overriding from the core.
+
+#12 Clearing the body markup.
+
+#13 Implementing the menu wrapper.
+
+#14 Implementing the menu item markup.
+
+#15 Preparing the two menus from the footer.
+
+#16 Arranging the blocks.
+
+#17 Implementing the footer markup.
+
+#18 Implementing the footer menu markup.
+
+#19 Install paragraphs module.
+
+#20 Create 3 paragraphs types [3 action, Image with title & Title with text].
+
+#21 Modify fields of basic page content types and add a Sections field of type paragraphs.
+
+--------------------------------------------------------------------------------------------
+
+📌️Building the top segment markup- banner section (from the node):
+
+#22 Prepare the fields in the display.
+
+#23 Create the image style.
+
+#24 Overwrite the node template.
+
+#25 Implement the markup for the top segment.
+
+📌️Building the first paragraph section with the icons:
+
+#26 Prepare the fields in the paragraph display.
+
+#27 Add the dummy content that we are going to style.
+
+#28 Search and overwrite the markup from the paragraph templates.
+
+📌️Building the image paragraph section:
+#29 Create the image style.
+#30 Prepare the fields in the paragraph display.
+#31 Add the dummy content that we are going to style.
+#32 Search and overwrite the markup from the paragraph templates.
+
+📌️Building text paragraph section:
+#33 Prepare the Fields in the Paragraph display.
+#34 Add the dummy content that we are going to style.
+#35 Search and overwrite the markup from the paragraph templates.
+
+
+📌️Building some pages with the help of our Paragraphs:
+#36 Change the logo.
+#37 Change the front page.
+#38 Create some more pages.
+
+(clap)(clap)(hi)
+--------------------------------
+
+
+
+[Source: https://www.youtube.com/watch?v=JDl-K_yqWto&list=PL2FjJlpyDp0Pfy-nf7OXGesiNNDMhgXPv&index=1]
+[Tuesday 3:30 PM] Dasbairagya, Gopal

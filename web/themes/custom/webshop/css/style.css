@@ -1,0 +1,18 @@
+.layout-container nav ul a, .layout-container nav .brand-logo{color:#444}
+.layout-container p{line-height:2rem}
+.layout-container .button-collapse{color:#26a69a}
+.layout-container .parallax-container{min-height:380px;line-height:0;height:auto;color:rgba(255,255,255,.9)}
+.layout-container .parallax-container .section{width:100%}
+@media only screen and (max-width :992px){
+.layout-container .parallax-container .section{position:absolute;top:40%}
+.layout-container #index-banner .section{top:10%}
+}
+@media only screen and (max-width :600px){
+.layout-container #index-banner .section{top:0}
+}
+.layout-container .icon-block{padding:0 15px}
+.layout-container .icon-block .material-icons{font-size:inherit}
+.layout-container footer.page-footer{margin:0}
+.brand-logo img {
+    width: 220px;
+}
