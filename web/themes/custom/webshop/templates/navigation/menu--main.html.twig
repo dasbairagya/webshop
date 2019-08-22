@@ -24,7 +24,7 @@
   We call a macro which calls itself to render the full tree.
   @see https://twig.symfony.com/doc/1.x/tags/macro.html
 #}
-{{ menus.menu_links(items, attributes, 0) }}
+{# {{ menus.menu_links(items, attributes, 0) }}
 
 {% macro menu_links(items, attributes, menu_level) %}
   {% import _self as menus %}
@@ -43,7 +43,7 @@
       </li>
     {% endfor %}
     </ul>
-  {% endif %}
+  {% endif %} #}
 
  {# this is the mobile version 
 
@@ -65,7 +65,23 @@
   {% endif %}
 <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
 #}
-{% endmacro %}
+
+{##}
+
+
+{% set items = simplify_menu('main') %}
+
+{# Iterate menu tree #}
+<ul class="right hide-on-med-and-down">
+  {% for menu_item in items.menu_tree %}
+    <li class="">
+      <a href="{{ menu_item.url }}">{{ menu_item.text }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+{# {% endmacro %}  #}
+
 
 
 

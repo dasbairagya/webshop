@@ -24,6 +24,7 @@
         "drupal/core": "^8.7.0",
         "drupal/devel": "^2.1",
         "drupal/paragraphs": "^1.8",
+        "drupal/simplify_menu": "^2.0",
         "drush/drush": "^9.0.0",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
